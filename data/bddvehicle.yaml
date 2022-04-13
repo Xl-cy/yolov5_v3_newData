@@ -18,8 +18,8 @@
 #  - images/test2007
 #test: # test images (optional)
 #  - images/test2007
-train: C:/Users/10604/Desktop/yolov5/BDD_DATA/images/train/ #10000 images
-val: C:/Users/10604/Desktop/yolov5/BDD_DATA/images/val/ #2000 images
+train: /root/autodl-tmp/BDD_DATA/images/train/ #10000 images
+val: /root/autodl-tmp/BDD_DATA/images/val/ #2000 images
 
 # Classes
 nc: 7  # number of classes
