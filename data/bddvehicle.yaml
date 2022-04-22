@@ -20,10 +20,10 @@
 #  - images/test2007
 train: /root/autodl-tmp/BDD_DATA/images/train/ #10000 images
 val: /root/autodl-tmp/BDD_DATA/images/val/ #2000 images
-test: ROOT/data/videos/
+test: /root/autodl-tmp/data/videos/
 # Classes
-nc: 7  # number of classes
-names: ["person", "rider", "car", "bus", "truck", "bike","motor"]  # class names
+nc: 1  # number of classes
+names: ["car"]  # class names
 
 
 # Download script/URL (optional) ---------------------------------------------------------------------------------------
